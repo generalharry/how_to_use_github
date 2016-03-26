@@ -1,0 +1,14 @@
+下载code
+git clone git@github.com:generalharry/helloworld.git
+
+上传code
+1/ git remote add origin git@github.com:generalharry/kernel_list_head.git
+
+2/ git push -u origin master
+
+生成public key
+cd ~/.ssh如果没有密钥则不会有此文件夹，有则备份删除
+ssh-keygen -t rsa -C "generalharry@163.com"按3个回车，密码为空
+最后得到了两个文件：id_rsa和id_rsa.pub
+
+public key 放在id_rsa.pub文件中.
